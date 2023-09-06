@@ -1,0 +1,37 @@
+{
+  "text": "",
+  "formats": [
+    {
+      "screen": {
+        "record format name": "myScreen"
+      },
+      "items": [
+        {
+          "id": "CenteringLayout",
+          "field type": "layout",
+          "left": "calc(50% - 450px)",
+          "top": "0px",
+          "template": "simple container",
+          "height": "745px",
+          "width": "900px",
+          "center horizontally": "true",
+          "locked in place": "true"
+        },
+        {
+          "id": "OutputField1",
+          "field type": "output field",
+          "css class": "label",
+          "value": "Space de Prueba",
+          "left": "35px",
+          "top": "35px",
+          "css class 2": "blueprint-defaults",
+          "css class 3": "blueprint-label",
+          "layout": "CenteringLayout",
+          "container": "1"
+        }
+      ]
+    }
+  ],
+  "keywords": [],
+  "long name aliases": true
+}
